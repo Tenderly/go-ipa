@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/crate-crypto/go-ipa/common/parallel"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/common/parallel"
 )
 
 // MultiExpConfig enables to set optional configuration attribute to a call to MultiExp

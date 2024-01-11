@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
 	"github.com/leanovate/gopter"
 	"github.com/leanovate/gopter/prop"
 )

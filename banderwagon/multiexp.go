@@ -1,8 +1,8 @@
 package banderwagon
 
 import (
-	"github.com/crate-crypto/go-ipa/bandersnatch"
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/bandersnatch"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
 )
 
 // MultiExpConfig enables to set optional configuration attribute to a call to MultiExp

@@ -1,9 +1,9 @@
 package ipa
 
 import (
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/crate-crypto/go-ipa/banderwagon"
-	"github.com/crate-crypto/go-ipa/common"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/banderwagon"
+	"github.com/tenderly/go-ipa/common"
 )
 
 func CheckIPAProof(transcript *common.Transcript, ic *IPAConfig, commitment banderwagon.Element, proof IPAProof, eval_point fr.Element, inner_prod fr.Element) bool {

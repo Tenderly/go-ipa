@@ -4,12 +4,12 @@ import (
 	"crypto/sha256"
 	"hash"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/crate-crypto/go-ipa/banderwagon"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/banderwagon"
 )
 
-/// The transcript is used to create challenge scalars.
-/// See: Fiat-Shamir
+// / The transcript is used to create challenge scalars.
+// / See: Fiat-Shamir
 type Transcript struct {
 	state hash.Hash
 }

@@ -22,8 +22,8 @@ import (
 
 	"io"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fp"
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/bandersnatch/fp"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
 )
 
 // PointAffine point on a twisted Edwards curve

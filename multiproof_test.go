@@ -5,11 +5,11 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/crate-crypto/go-ipa/banderwagon"
-	"github.com/crate-crypto/go-ipa/common"
-	"github.com/crate-crypto/go-ipa/ipa"
-	"github.com/crate-crypto/go-ipa/test_helper"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/banderwagon"
+	"github.com/tenderly/go-ipa/common"
+	"github.com/tenderly/go-ipa/ipa"
+	"github.com/tenderly/go-ipa/test_helper"
 )
 
 func TestMultiProofCreateVerify(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/crate-crypto/go-ipa/banderwagon"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/banderwagon"
 )
 
 func TestVector0(t *testing.T) {

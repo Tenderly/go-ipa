@@ -4,9 +4,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch"
-	"github.com/crate-crypto/go-ipa/bandersnatch/fp"
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/bandersnatch"
+	"github.com/tenderly/go-ipa/bandersnatch/fp"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
 )
 
 const sizePointCompressed = fp.Limbs * 8

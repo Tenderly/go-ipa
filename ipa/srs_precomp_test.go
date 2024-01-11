@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/crate-crypto/go-ipa/banderwagon"
+	"github.com/tenderly/go-ipa/banderwagon"
 )
 
 func TestPrecompSerde(t *testing.T) {

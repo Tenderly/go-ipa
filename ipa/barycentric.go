@@ -3,8 +3,8 @@ package ipa
 import (
 	"fmt"
 
-	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/crate-crypto/go-ipa/common"
+	"github.com/tenderly/go-ipa/bandersnatch/fr"
+	"github.com/tenderly/go-ipa/common"
 )
 
 // The domain size will always equal 256, which is the same

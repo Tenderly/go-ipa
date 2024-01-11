@@ -1,4 +1,4 @@
-module github.com/crate-crypto/go-ipa
+module github.com/tenderly/go-ipa
 
 go 1.15
 
